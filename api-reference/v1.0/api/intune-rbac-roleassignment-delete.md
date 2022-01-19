@@ -30,7 +30,7 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
-DELETE /deviceManagement/roleDefinitions/{roleDefinitionId}/roleAssignments/{roleAssignmentId}
+DELETE /deviceManagement/roleAssignments('{roleAssignmentId}')
 ```
 
 ## Request headers
@@ -50,7 +50,7 @@ If successful, this method returns a `204 No Content` response code.
 ### Request
 Here is an example of the request.
 ``` http
-DELETE https://graph.microsoft.com/v1.0/deviceManagement/roleDefinitions/{roleDefinitionId}/roleAssignments/{roleAssignmentId}
+DELETE https://graph.microsoft.com/v1.0/deviceManagement/deviceManagement/roleAssignments('{roleAssignmentId}')
 ```
 
 ### Response
